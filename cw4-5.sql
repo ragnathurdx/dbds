@@ -2,7 +2,7 @@
 o nazwach departamentów i wypisać na ekran 10 (numery 10,20,…,100) */
 
 DECLARE
-    TYPE temp IS TABLE OF departments.department_name%TYPE INDEX BY pls_integer;
+    TYPE temp5 IS TABLE OF departments.department_name%TYPE INDEX BY pls_integer;
     departments__list temp_table;
     id_numbers NUMBER:=10;
 BEGIN
